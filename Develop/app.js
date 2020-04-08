@@ -31,7 +31,19 @@ inquirer
             "intern",
             "engineer"
         ]
-    }])
+    }]) 
+    .then(answers => manager {
+        // Use user feedback for... whatever!!
+      })
+      .catch(error => {
+        if(error.isTtyError) {
+          // Prompt couldn't be rendered in the current environment
+        } else {
+          // Something else when wrong
+        }
+      });
+
+
 // and to create objects for each team member (using the correct classes as blueprints!)
 // After the user has input all employees desired, call the `render` function (required
 // above) and pass in an array containing all employee objects; the `render` function will
