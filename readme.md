@@ -10,8 +10,7 @@
 # Title:Team Profile
 
 # Badges
-[![Build Status](https://travis-ci.com/vannaksuos/ReadMe-Generator.svg?branch=master)](https://travis-ci.com/vannaksuos/ReadMe-Generator)
-
+[![Build Status](https://travis-ci.com/vannaksuos/Team-Profile.svg?branch=master)](https://travis-ci.com/vannaksuos/Team-Profile)
 # Description
 As a manager I want to generate a webpage that generate my teams basic info, so that I have quick access to emails and GitHub profiles
 
